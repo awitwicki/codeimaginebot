@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  codeimaginebot:
+    build: .
+    image: codeimaginebot
+    volumes:
+      - ./images:/app/images
+    env_file:
+    - .env
+    container_name: codeimaginebot-container
+    restart: always

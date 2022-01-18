@@ -1,0 +1,5 @@
+asyncio
+aiogram
+async_lru
+pyppeteer
+requests

@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Docker
+.env
+
+# Temporary files
+images/*.png
